@@ -44,9 +44,10 @@ def load(dataset="data/kickstarter_2018.csv"):
         # insert
         c.executemany(
             """
-            INSERT INTO kickstarter
-            (ID, name, category, main_category, currency, deadline, goal, launched, pledged,
-            state, backers, country, usd_pledged, usd_pledged_real, usd_goal_real)
+            INSERT INTO kickstarter(
+            ID, name, category, main_category, currency, deadline, goal, launched, pledged,
+            state, backers, country, usd_pledged, usd_pledged_real, usd_goal_real
+            )
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             payload,

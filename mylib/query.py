@@ -10,8 +10,8 @@ def queryCreate():
     # Insert execution (example project details provided)
     cursor.execute(
         """
-        INSERT INTO kickstarter (name, category, main_category, currency, deadline, goal, launched, pledged, state, backers, country, usd_pledged, usd_pledged_real, usd_goal_real)
-        VALUES ('Sample Project', 'Technology', 'Tech', 'USD', '2024-12-31', 10000, '2024-01-01', 5000, 'live', 100, 'US', 5000, 5000, 10000)
+        INSERT INTO kickstarter (ID, name, category, main_category, currency, deadline, goal, launched, pledged, state, backers, country, usd_pledged, usd_pledged_real, usd_goal_real)
+        VALUES (1, 'Sample Project', 'Technology', 'Tech', 'USD', '2024-12-31', 10000, '2024-01-01', 5000, 'live', 100, 'US', 5000, 5000, 10000)
         """
     )
     conn.commit()
