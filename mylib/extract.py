@@ -29,6 +29,7 @@ def extract(
 if __name__ == "__main__":
     extract()
 
+"""Code Attempt for using Kickstarter Data Below"""
 
 # def extract(
 #     url="https://raw.githubusercontent.com/bharatk101/kickstarter_eda/refs/heads/master/ks-projects-201801.csv",

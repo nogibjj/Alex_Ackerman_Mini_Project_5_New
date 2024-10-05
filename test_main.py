@@ -19,7 +19,8 @@ if __name__ == "__main__":
     assert test_function()["update"] == "Update Success"
     assert test_function()["delete"] == "Delete Success"
 
-# from main import main_result
+
+"""Code Attempt for using Kickstarter Data Below"""
 
 
 # def test_func():

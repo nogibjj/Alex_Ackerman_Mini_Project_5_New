@@ -82,6 +82,7 @@ def load(dataset="data/Spotify_Most_Streamed_Songs.csv"):
 if __name__ == "__main__":
     load()
 
+"""Code Attempt for using Kickstarter Data Below"""
 
 # # load the csv file and insert into a new sqlite3 database
 # def load(dataset="data/kickstarter_2018.csv"):
