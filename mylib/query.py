@@ -68,7 +68,7 @@ def query_read(limit=5):
     try:
         # Execute read query to fetch 'limit' records
         cursor.execute(f"SELECT * FROM SpotifyDB LIMIT {limit}")
-        records = cursor.fetchall()
+        # records = cursor.fetchall()
 
         # Print fetched records for demonstration
         # for record in records:
