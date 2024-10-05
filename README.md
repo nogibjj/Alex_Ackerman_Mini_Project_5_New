@@ -27,5 +27,6 @@ The data used for this project came from [RunCHIRON](https://github.com/RunCHIRO
 
 ## References
 
-[sqlite-lab](https://github.com/nogibjj/sqlite-lab/tree/main)
-[Dataset from RunCHIRON Repo](https://github.com/RunCHIRON/dataset)
+- [sqlite-lab](https://github.com/nogibjj/sqlite-lab/tree/main)
+
+- [Dataset from RunCHIRON Repo](https://github.com/RunCHIRON/dataset)
