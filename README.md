@@ -4,7 +4,7 @@
 
 ## Important Note
 
-The original dataset intended to be used with this project contained Kickstarter project data. I had many issues getting the CICD to work build using this data despite everything working locally. I chose to keep my original code for this dataset and it can be found commented out beneath the working code in each applicable script.
+The original dataset intended to be used with this project contained Kickstarter project data. I had many issues getting the CICD build using this data despite everything working locally. I chose to keep my original code for this dataset for future investigation. The original code can be found commented out beneath the working code in each applicable script.
 
 The error seen when using this data was:
 ![alt text](Kickstarter_Build_Error.png)
