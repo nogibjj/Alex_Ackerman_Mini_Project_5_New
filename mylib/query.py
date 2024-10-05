@@ -127,7 +127,7 @@ if __name__ == "__main__":
     print(query_delete())
 
 
-"""Code Attempt for using Kickstarter Data Below"""
+# """Code Attempt for using Kickstarter Data Below"""
 
 # # Function to insert a new project into the kickstarter table
 # def queryCreate():

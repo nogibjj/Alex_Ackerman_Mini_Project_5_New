@@ -20,7 +20,7 @@ if __name__ == "__main__":
     assert test_function()["delete"] == "Delete Success"
 
 
-"""Code Attempt for using Kickstarter Data Below"""
+# """Code Attempt for using Kickstarter Data Below"""
 
 
 # def test_func():

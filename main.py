@@ -31,7 +31,7 @@ def main_results():
     return results
 
 
-"""Code Attempt for using Kickstarter Data Below"""
+# """Code Attempt for using Kickstarter Data Below"""
 
 # from mylib.extract import extract
 # from mylib.transform_load import load
